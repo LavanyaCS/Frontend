@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Lavanya
+ * @package    Lavanya_Frontend
+ * @author     lavanyachandranece@gmail.com
+ * @copyright  Copyright  Lavanya<lavanyachandranece@gmail.com>
+ * @license    Open Software License
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="frontend" frontName="frontend">
+            <module name="Lavanya_Frontend" />
+        </route>
+    </router>
+</config>
